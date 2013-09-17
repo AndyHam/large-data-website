@@ -4,7 +4,7 @@
 
 *30, female, NASA*
 
-Kaylee is a woman who loves everything about space. Her life dream is to help contribute to the future of man kind and believes our future rests in the stars.
+Kaylee is a woman who enjoys everything about space. Her life dream is to help contribute to the future of man kind and believes our future rests in the stars.
 
 **Personal goals**
 
