@@ -126,3 +126,11 @@ body {
     margin-top: 120px;
   }
 }
+
+.page-content{
+  background-color: #eee;
+  width: 600px;
+  float: inline-block;
+  padding: 1em ;
+}
+
