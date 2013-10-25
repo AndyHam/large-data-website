@@ -11,3 +11,7 @@
   float: right;
   padding: 1em;
 }
+
+.planet-info {
+	clear: both;
+}
