@@ -15,3 +15,7 @@
 .planet-info {
 	clear: both;
 }
+
+html{
+	background: url(../../img/background.jpg) no-repeat center center fixed;
+}
