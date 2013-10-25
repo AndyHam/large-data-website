@@ -6805,3 +6805,7 @@ td.visible-print {
   }
 }
 
+.flex-img{
+  display: inline-block;
+  float: right;
+}
