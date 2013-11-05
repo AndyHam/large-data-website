@@ -35,7 +35,14 @@
   <meta property="twitter:image" content="http://domain.com/img/thing.jpg">
   <meta property="twitter:description" content="The Milky Way Galaxy is where our solar system lives as well as many others. Learn about what a galaxy is, what a solar system is, and information specifically on our galaxy the milky way.">
 </head>
-<body>
+<body id="top">
+<ul class="skiplinks">
+
+<li><a href="#main">Skip to primary content</a></li>
+<li><a href="#complementary">Skip to secondary content</a></li>
+<li><a href="#navigation">Skip to navigation</a></li>
+
+</ul>
 <div class="navbar navbar-inverse navbar-default navbar-static-top">
       <div class="container">
         <div class="navbar-header">
@@ -47,6 +54,7 @@
           <a class="navbar-brand" href="index.html" rel="home">MyMilkyWay</a>
         </div>
         <div class="navbar-collapse collapse">
+          <nav role="navigation" id="navigation">
           <ul class="nav navbar-nav">
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Galaxy <b class="caret"></b></a>
@@ -77,7 +85,7 @@
             </li>
 
           </ul>
-        
+        </nav>
         </div><!--/.nav-collapse -->
       </div>
     </div>
@@ -102,8 +110,10 @@
 
 
     <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+      <main role="main" id="main">
       <h1>Outer Solar System</h1>
-
+    </main>
+<aside role="complementary" id="complementary">
 <p>The outer region of the Solar System is home to the gas giants and their large moons. Many short-period comets, including the centaurs, also orbit in this region. Due to their greater distance from the Sun, the solid objects in the outer Solar System contain a higher proportion of volatiles, such as water, ammonia and methane, than the rocky denizens of the inner Solar System because the colder temperatures allow these compounds to remain solid.</p>
 
 <h2>Outer Planets</h2>
@@ -135,6 +145,7 @@
   <p>Neptune (30 AU), though slightly smaller than Uranus, is more massive (equivalent to 17 Earths) and therefore more dense. It radiates more internal heat, but not as much as Jupiter or Saturn.
   Neptune has 14 known satellites. The largest, Triton, is geologically active, with geysers of liquid nitrogen. Triton is the only large satellite with a retrograde orbit. Neptune is accompanied in its orbit by a number of minor planets, termed Neptune trojans, that are in 1:1 resonance with it.</p>
 </div>
+</aside>
     </div>
 
   </div>
@@ -145,6 +156,8 @@
 
   </div>
  
+
+<footer role="contentinfo">
 <div class="container">
         <div class="page-header">
          
@@ -166,5 +179,6 @@
     <script src="http://code.jquery.com/jquery.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="dist/js/bootstrap.min.js"></script>
+</footer>
 </body>
 </html>

@@ -35,7 +35,14 @@
   <meta property="twitter:image" content="http://domain.com/img/thing.jpg">
   <meta property="twitter:description" content="The Milky Way Galaxy is where our solar system lives as well as many others. Learn about what a galaxy is, what a solar system is, and information specifically on our galaxy the milky way.">
 </head>
-<body>
+<body id="top">
+<ul class="skiplinks">
+
+<li><a href="#main">Skip to primary content</a></li>
+<li><a href="#complementary">Skip to secondary content</a></li>
+<li><a href="#navigation">Skip to navigation</a></li>
+
+</ul>
 <div class="navbar navbar-inverse navbar-default navbar-static-top">
       <div class="container">
         <div class="navbar-header">
@@ -47,6 +54,7 @@
           <a class="navbar-brand" href="index.html" rel="home">MyMilkyWay</a>
         </div>
         <div class="navbar-collapse collapse">
+          <nav role="navigation" id="navigation">
           <ul class="nav navbar-nav">
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Galaxy <b class="caret"></b></a>
@@ -77,7 +85,7 @@
             </li>
 
           </ul>
-        
+        </nav>
         </div><!--/.nav-collapse -->
       </div>
     </div>
@@ -99,7 +107,7 @@
             <div class="carousel-caption">
               <h1>Milky Way Galaxy</h1>
               <p>The <strong>Milky Way Galaxy</strong> is where our solar system lives as well as many others.  Learn about what a <strong>galaxy</strong> is, what a <strong>solar system</strong> is, and information specifically on our galaxy the milky way.</p>
-              <p><a class="btn btn-large btn-primary" href="milkyway.html">Learn More About The Milky Way</a></p>
+              <p><a class="btn btn-large btn-primary skiplinks" href="milkyway.html">Learn More About The Milky Way</a></p>
             </div>
           </div>
         </div>
@@ -109,7 +117,7 @@
             <div class="carousel-caption">
               <h1>Galaxy</h1>
               <p>A <strong>galaxy</strong> is a massive, gravitationally bound system consisting of stars, stellar remnants, an interstellar medium of gas and dust, and dark matter, an important but poorly understood component.</p>
-              <p><a class="btn btn-large btn-primary" href="Galaxy.html">Learn More About Galaxies</a></p>
+              <p><a class="btn btn-large btn-primary skiplinks" href="Galaxy.html">Learn More About Galaxies</a></p>
             </div>
           </div>
         </div>
@@ -119,7 +127,7 @@
             <div class="carousel-caption">
               <h1>Solar System</h1>
               <p>The <strong>Solar System</strong> comprises the Sun and its planetary system of eight planets, as well as a number of dwarf planets, satellites (moons), and other objects that orbit the Sun.</p>
-              <p><a class="btn btn-large btn-primary" href="solarsystemwhat.html">Learn More About Solar Systems</a></p>
+              <p><a class="btn btn-large btn-primary skiplinks" href="solarsystemwhat.html">Learn More About Solar Systems</a></p>
             </div>
           </div>
         </div>
@@ -129,7 +137,7 @@
             <div class="carousel-caption">
               <h1>News</h1>
               <p>Space Weather: Sunspots, Solar Flares & Coronal Mass Ejections</p>
-              <p><a class="btn btn-large btn-primary" href="#">Read More About News</a></p>
+              <p><a class="btn btn-large btn-primary skiplinks" href="#">Read More About News</a></p>
             </div>
           </div>
         </div>
@@ -139,6 +147,8 @@
     </div>
   </div>
 </div> 
+
+<footer role="contentinfo">
 <div class="container">
         <div class="page-header">
          
@@ -160,5 +170,6 @@
     <script src="http://code.jquery.com/jquery.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="dist/js/bootstrap.min.js"></script>
+</footer>
 </body>
 </html>

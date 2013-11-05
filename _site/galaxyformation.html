@@ -35,7 +35,14 @@
   <meta property="twitter:image" content="http://domain.com/img/thing.jpg">
   <meta property="twitter:description" content="The Milky Way Galaxy is where our solar system lives as well as many others. Learn about what a galaxy is, what a solar system is, and information specifically on our galaxy the milky way.">
 </head>
-<body>
+<body id="top">
+<ul class="skiplinks">
+
+<li><a href="#main">Skip to primary content</a></li>
+<li><a href="#complementary">Skip to secondary content</a></li>
+<li><a href="#navigation">Skip to navigation</a></li>
+
+</ul>
 <div class="navbar navbar-inverse navbar-default navbar-static-top">
       <div class="container">
         <div class="navbar-header">
@@ -47,6 +54,7 @@
           <a class="navbar-brand" href="index.html" rel="home">MyMilkyWay</a>
         </div>
         <div class="navbar-collapse collapse">
+          <nav role="navigation" id="navigation">
           <ul class="nav navbar-nav">
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Galaxy <b class="caret"></b></a>
@@ -77,7 +85,7 @@
             </li>
 
           </ul>
-        
+        </nav>
         </div><!--/.nav-collapse -->
       </div>
     </div>
@@ -100,8 +108,10 @@
 
 
     <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+      <main role="main" id="main">
       <h1> How is a Galaxy is formed? </h1>
-
+    </main>
+<aside role="complementary" id="complementary">
 <h2>Formation of the first Galaxies</h2>
 
 <p>After the Big Bang, the universe, for a time, was remarkably homogeneous, as can be observed in the Cosmic Microwave Background or CMB (the fluctuations of which are less than one part in one hundred thousand). There was little-to-no structure in the universe, and thus no galaxies. Therefore we must ask how the smoothly distributed universe of the CMB became the clumpy universe we see today.</p>
@@ -124,7 +134,7 @@
 In recent years, a great deal of focus has been put on understanding merger events in the evolution of galaxies. Our own galaxy (the Milky Way) has a tiny satellite galaxy (the Sagittarius Dwarf Elliptical Galaxy) which is currently gradually being ripped up and "eaten" by the Milky Way. It is thought these kinds of events may be quite common in the evolution of large galaxies. The Sagittarius dwarf galaxy is orbiting our galaxy at almost a right angle to the disk. It is currently passing through the disk; stars are being stripped off of it with each pass and joining the halo of our galaxy. There are other examples of these minor accretion events, and it is likely a continual process for many galaxies. Such mergers provide "new" gas, stars, and dark matter to galaxies. Evidence for this process is often observable as warps or streams coming out of galaxies.</p>
 
 <p>The Lambda-CDM model of galaxy formation underestimates the number of thin disk galaxies in the universe. The reason is that these galaxy formation models predict a large number of mergers. If disk galaxies merge with another galaxy of comparable mass (at least 15 percent of its mass) the merger will likely destroy, or at a minimum greatly disrupt the disk, yet the resulting galaxy is not expected to be a disk galaxy. While this remains an unsolved problem for astronomers, it does not necessarily mean that the Lambda-CDM model is completely wrong, but rather that it requires further refinement to accurately reproduce the population of galaxies in the universe.</p>
-
+</aside>
     </div>
 
   </div>
@@ -135,6 +145,8 @@ In recent years, a great deal of focus has been put on understanding merger even
 
 
  
+
+<footer role="contentinfo">
 <div class="container">
         <div class="page-header">
          
@@ -156,5 +168,6 @@ In recent years, a great deal of focus has been put on understanding merger even
     <script src="http://code.jquery.com/jquery.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="dist/js/bootstrap.min.js"></script>
+</footer>
 </body>
 </html>

@@ -25,15 +25,17 @@ html{
 	padding: 0;
 	position: absolute;
 	font-size: 1.25rem;
-	list-style-type: none;
-	z-index: 3000;
 	width: 100%;
+	z-index: 3000;
+
+	font-size: 1.25rem;
+	font-weight: bold;
+	list-style-type: none;
 }
 
 .skiplinks a,
 .skiplinks a:link,
 .skiplinks a:visited {
-	display: inline-block;
 	padding: 0.5em 0.75em;
 	background-color: #000;
 	color: #fff;
