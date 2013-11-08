@@ -1,7 +1,6 @@
 # Milky Way
 
 - Home
-- News
 
 - Galaxy
 	- What is a galaxy
