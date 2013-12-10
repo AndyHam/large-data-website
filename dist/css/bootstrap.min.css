@@ -70,4 +70,6 @@ a:focus{
 	text-align: center;
 }
 
-
+.float{
+	float: right;
+}
